@@ -37,7 +37,6 @@ public class Main extends JFrame {
         destinationLabel = new JLabel("Destination Directory:");
 
         sourceField = new JTextField(20);
-        sourceField.setEditable(false);
         FileDropHandler.addDropSupport(sourceField);
 
         destinationField = new JTextField(20);
